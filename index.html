@@ -1,0 +1,389 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<title>NextEpisode▶</title>
+
+<style>
+
+body{
+background-color:#141414;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+header{
+background-color:#1f1f1f;
+padding:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+section{
+padding:20px;
+}
+
+/* BANNER PRINCIPAL */
+
+.banner{
+background-image:
+linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.3)),
+url("friends.png");
+
+background-size:cover;
+background-position:center;
+height:400px;
+
+display:flex;
+align-items:center;
+
+border-radius:20px;
+margin:20px;
+padding:40px;
+}
+
+.contenido-banner{
+width:50%;
+text-align:left;
+}
+
+.contenido-banner h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.contenido-banner p{
+font-size:22px;
+line-height:1.5;
+margin-bottom:25px;
+}
+
+/* CATALOGO */
+
+.catalogo{
+display:flex;
+gap:15px;
+overflow-x:auto;
+padding:10px;
+}
+
+.card{
+background-color:#222;
+border-radius:10px;
+width:180px;
+overflow:hidden;
+transition:0.3s;
+flex-shrink:0;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.card-content{
+padding:10px;
+text-align:left;
+color:#fffafa;
+}
+
+.card h3{
+margin:0;
+font-size:18px;
+}
+
+.card p{
+font-size:14px;
+color:#cfcfcf;
+}
+
+/* BOTONES */
+
+button{
+background-color:#e50914;
+border:none;
+padding:12px 18px;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background-color:#ff1f1f;
+transform:scale(1.05);
+}
+
+button a{
+color:white;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+background-color:#484575;
+padding:15px;
+margin-top:20px;
+font-size:14px;
+}
+
+.alinear-izquierda{
+text-align:left;
+}
+
+</style>
+</head>
+
+<body>
+
+<center>
+
+<header>
+<nav>
+<a href="Peliculas.html">Peliculas</a>
+<a href="Series.html">Series</a>
+<a href="Cuenta.html">Sesion</a>
+</nav>
+</header>
+
+<!-- BANNER -->
+
+<section class="banner">
+
+<div class="contenido-banner">
+
+<h1>Smiling Friends</h1>
+
+<p>
+Smiling Friends narra las aventuras de Charlie, Pim, Allan y Glep,
+empleados de Smiling Friends.
+</p>
+
+<button>
+<a href="Smiling Friends.html">Mas informacion</a>
+</button>
+
+</div>
+
+</section>
+
+<!-- DESTACADOS -->
+
+<section>
+
+<h2>
+<div class="alinear-izquierda">Destacados</div>
+</h2>
+
+<div class="catalogo">
+
+<div class="card">
+<img src="Arcane.jpg">
+
+<div class="card-content">
+<h3>Arcane</h3>
+<p>Accion ° 2021</p>
+</div>
+</div>
+
+<div class="card">
+<img src="The end.jpeg">
+
+<div class="card-content">
+<h3>The End of the F***ing World</h3>
+<p>Drama ° 2017</p>
+</div>
+</div>
+
+<div class="card">
+<a href="Bojack Horseman.html">
+<img src="BoJac Horseman.jpg">
+</a>
+
+<div class="card-content">
+<h3>BoJack Horseman</h3>
+<p>Drama ° 2014</p>
+</div>
+</div>
+
+<div class="card">
+<img src="Kamisama Hajimemashita.jpg">
+
+<div class="card-content">
+<h3>Kamisama Hajimemashita</h3>
+<p>Fantasia/Romance ° 2012</p>
+</div>
+</div>
+
+<div class="card">
+<img src="Historias cruzadas.jpg">
+
+<div class="card-content">
+<h3>Historias cruzadas</h3>
+<p>Drama/comedia ° 2011</p>
+</div>
+</div>
+
+<div class="card">
+<img src="isla de perros.jpg">
+
+<div class="card-content">
+<h3>Isla de perros</h3>
+<p>Aventura ° 2018</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- PELICULAS -->
+
+<section>
+
+<h2>
+<div class="alinear-izquierda">Peliculas</div>
+</h2>
+
+<div class="catalogo">
+
+<div class="card">
+<img src="las ventajas de ser invisible.jpg">
+
+<div class="card-content">
+<h3>Las ventajas de ser invisible</h3>
+<p>Comedia/Romance ° 2012</p>
+</div>
+</div>
+
+<div class="card">
+<img src="La vida es bella.jpg">
+
+<div class="card-content">
+<h3>La vida es bella</h3>
+<p>Belico/Comedia ° 1997</p>
+</div>
+</div>
+
+<div class="card">
+<img src="Soul.jpeg">
+
+<div class="card-content">
+<h3>Soul</h3>
+<p>Fantasia ° 2020</p>
+</div>
+</div>
+
+<div class="card">
+<img src="Secreto En La Montaña.jpg">
+
+<div class="card-content">
+<h3>Secreto En La Montaña</h3>
+<p>Romance ° 2005</p>
+</div>
+</div>
+
+<div class="card">
+<img src="interestelar.jpg">
+
+<div class="card-content">
+<h3>Interestelar</h3>
+<p>Ciencia ficcion/Aventura ° 2014</p>
+</div>
+</div>
+
+<div class="card">
+<img src="La La Land.jpg">
+
+<div class="card-content">
+<h3>La La Land</h3>
+<p>Musical/Romance ° 2016</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- SERIES -->
+
+<section>
+
+<h2>
+<div class="alinear-izquierda">Series</div>
+</h2>
+
+<div class="catalogo">
+
+<div class="card">
+<img src="Si la vida te da mandarinas.jpg">
+
+<div class="card-content">
+<h3>Si la vida te da mandarinas</h3>
+<p>Drama/Romance ° 2025</p>
+</div>
+</div>
+
+<div class="card">
+<img src="Más Allá Del Jardín.jpg">
+
+<div class="card-content">
+<h3>Más Allá Del Jardín</h3>
+<p>Aventura ° 2014</p>
+</div>
+</div>
+
+<div class="card">
+<img src="veintiuno y veinticinco.jpg">
+
+<div class="card-content">
+<h3>Veintiuno y veinticinco</h3>
+<p>Romance ° 2022</p>
+</div>
+</div>
+
+<div class="card">
+<img src="long short story.jpg">
+
+<div class="card-content">
+<h3>Long Short Story</h3>
+<p>Comedia dramatica ° 2025</p>
+</div>
+</div>
+
+<div class="card">
+<img src="banana fish.jpg">
+
+<div class="card-content">
+<h3>Banana Fish</h3>
+<p>Accion/Suspenso ° 2018</p>
+</div>
+</div>
+
+<div class="card">
+<img src="Alice in Borderland.jpg">
+
+<div class="card-content">
+<h3>Alice in Borderland</h3>
+<p>Suspenso ° 2020</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+© Kimberlee Catherine Martinez Hernandez - Proyecto - Página de información de series y películas
+</footer>
+
+</center>
+</body>
+</html>
