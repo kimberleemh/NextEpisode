@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Arcane</title>
+
+<style>
+
+body{
+    background:linear-gradient(to bottom, #071a35, #0f305f);
+    font-family:Arial;
+    margin:0;
+    padding:30px;
+    color:white;
+}
+
+.contenedor{
+    width:90%;
+    margin:auto;
+    background:#102746;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.7);
+}
+
+.arriba{
+    display:flex;
+    gap:30px;
+}
+
+.poster img{
+    width:220px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px black;
+    transition:0.3s;
+}
+
+.poster img:hover{
+    transform:scale(1.03);
+}
+
+.info{
+    flex:1;
+}
+
+.titulo{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:15px;
+    color:#4db8ff;
+    text-shadow:2px 2px 8px black;
+}
+
+.barra{
+    background:#4db8ff;
+    color:white;
+    padding:8px;
+    border-radius:10px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.descripcion{
+    font-size:28px;
+    line-height:1.4;
+    text-align:justify;
+}
+
+.calificacion{
+    margin-top:20px;
+    font-size:25px;
+}
+
+.estrellas{
+    color:gold;
+    font-size:30px;
+}
+
+.abajo{
+    display:flex;
+    gap:40px;
+    margin-top:35px;
+}
+
+.netflix{
+    width:240px;
+    text-align:center;
+}
+
+.netflix img{
+    width:130px;
+    margin-top:15px;
+    border-radius:15px;
+    box-shadow:0px 0px 10px black;
+}
+
+.netflix a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.netflix a:hover{
+    color:#4db8ff;
+}
+
+.capitulos{
+    flex:1;
+}
+
+.capitulo{
+    display:flex;
+    gap:15px;
+    background:#18375f;
+    border-radius:15px;
+    padding:12px;
+    margin-top:20px;
+    transition:0.3s;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.capitulo:hover{
+    transform:translateY(-3px);
+    background:#224b7a;
+}
+
+.capitulo img{
+    width:200px;
+    height:110px;
+    border-radius:10px;
+}
+
+.texto-capitulo h3{
+    margin:0;
+    color:#4db8ff;
+    font-size:24px;
+}
+
+.texto-capitulo p{
+    margin-top:8px;
+    font-size:18px;
+    color:#dddddd;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<div class="arriba">
+
+<div class="poster">
+<img src="arcane.jpg">
+</div>
+
+<div class="info">
+
+<div class="titulo">
+Arcane
+</div>
+
+<div class="barra">
+Sinopsis
+</div>
+
+<div class="descripcion">
+Arcane es una aclamada serie animada de Netflix y Riot Games basada en el universo de League of Legends. La historia explora el conflicto de clases entre dos ciudades: la utópica y próspera Piltóver y el opresivo y subterráneo barrio de Zaun. La trama sigue principalmente la trágica separación de dos hermanas huérfanas, Vi y Powder (Jinx), quienes terminan en bandos opuestos.
+</div>
+
+<div class="calificacion">
+⭐ Calificación: <b>9.0/10</b>
+</div>
+
+</div>
+</div>
+
+<div class="abajo">
+
+<div class="netflix">
+
+<div class="barra">
+Sitio Oficial
+</div>
+
+<img src="Netflix-Symbol.png">
+
+<br><br>
+
+<a href="https://www.netflix.com">
+Ver en Netflix
+</a>
+
+</div>
+
+<div class="capitulos">
+
+<div class="barra">
+Capítulos
+</div>
+
+<div class="capitulo">
+
+<img src="arcane1.jpg">
+
+<div class="texto-capitulo">
+<h3>Capítulo 1 - Welcome to the Playground</h3>
+
+<p>
+Las hermanas Vi y Powder viven en Zaun y participan en un robo que provoca una serie de consecuencias inesperadas. Mientras tanto, Jayce intenta desarrollar una tecnología capaz de combinar magia y ciencia.
+</p>
+
+</div>
+</div>
+
+<div class="capitulo">
+
+<img src="arcane2.jpg">
+
+<div class="texto-capitulo">
+<h3>Capítulo 2 - Some Mysteries Are Better Left Unsolved</h3>
+
+<p>
+Jayce enfrenta problemas por sus experimentos con la magia. Las tensiones entre Piltóver y Zaun continúan creciendo mientras Vi intenta proteger a su familia y sus amigos.
+</p>
+
+</div>
+</div>
+
+<div class="capitulo">
+
+<img src="arcane3.jpg">
+
+<div class="texto-capitulo">
+<h3>Capítulo 3 - The Base Violence Necessary for Change</h3>
+
+<p>
+El enfrentamiento entre Vander y Silco alcanza un punto crítico. Una misión de rescate termina en tragedia y cambia para siempre el destino de Vi y Powder.
+</p>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
